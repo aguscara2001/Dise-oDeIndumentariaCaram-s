@@ -1,0 +1,29 @@
+/*GRID*/
+
+.grid-container {
+	display: grid;
+	margin: 40px 0 40px 0;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(3,200px);
+	gap: 1px 1px;
+	text-align: center;
+	justify-content: stretch;
+	font-size: 1.5rem;
+	grid-template-areas:
+	"quienesSomos quienesSomos quienesSomos quienesSomos"
+	"preguntasFrec preguntasFrec preguntasFrec preguntasFrec"
+	"metas metas metas metas";
+}
+
+.quienesSomos {
+	grid-area: quienesSomos;
+	background-color: #EFF4F7;
+}
+.preguntasFrec {
+	grid-area: preguntasFrec;
+	background-color: #73CAEF;
+}
+.metas {
+	grid-area: metas;
+	background-color: #89FFFB;
+}
