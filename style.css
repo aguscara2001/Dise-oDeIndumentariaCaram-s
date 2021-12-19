@@ -38,8 +38,6 @@ ul.footer li a {
 }
 
 nav {
-  max-width: 960px;
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -58,7 +56,7 @@ nav ul li a {
   padding: 18px;
   font-family: "Open Sans";
   text-transform: uppercase;
-  color: rgba(0, 35, 122, 0.5);
+  color: black;
   font-size: 18px;
   text-decoration: none;
   display: block;
@@ -67,47 +65,17 @@ nav ul li a {
 nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 35, 122, 0.7);
+  color: white;
+  text-decoration: none;
 }
 
 header {
-  background-color: black;
+  background-color: grey;
 }
 
-.header__menu {
-  color: black;
-  text-decoration: none;
-}
-
-.header__menuTexto {
-  color: black;
-  text-decoration: none;
-  list-style: none;
-}
-
-ul.menuVertical {
-  border: 1px solid #7C7C7C;
-  border-bottom: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 180px;
-}
-ul.menuVertical li {
-  background: #F4F4F4;
-  border-bottom: 1px solid #7C7C7C;
-  border-top: 1px solid #FFF;
-}
-ul.menuVertical li a {
-  color: #333;
-  display: block;
-  padding: 0.2em 0 0.2em 0.5em;
-  text-decoration: none;
-  font-family: "Courier New", Courier, monospace;
-}
-
-ul.menuVertical li a:hover {
-  background-color: #afb2b7;
+h1 {
+  text-align: center;
+  color: white;
 }
 
 * {
@@ -118,10 +86,9 @@ ul.menuVertical li a:hover {
 
 #logo {
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 175px;
+  width: 175px;
   text-align: center;
-  background-color: darkgrey;
   animation-duration: 2s;
   animation-name: aparecer;
 }
@@ -136,7 +103,6 @@ ul.menuVertical li a:hover {
 }
 nav {
   height: 60px;
-  background-color: #17181C;
   text-align: center;
 }
 

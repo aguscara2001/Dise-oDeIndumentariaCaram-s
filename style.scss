@@ -1,53 +1,14 @@
 @import "footer";
 @import "grid";
 @import "menu";
+
 header{
-  background-color: black;
+  background-color: grey;
  }
-
- .header__menu{
-   color: black;
-   text-decoration: none;
- }
-
- .header__menuTexto{
-   color: black;
-   text-decoration: none;
-   list-style: none;
- }
-
-
-
-ul.menuVertical {
-  border: 1px solid #7C7C7C;
-  border-bottom: none;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  width: 180px;
-
-         li {
-                background: #F4F4F4;
-                border-bottom: 1px solid #7C7C7C;
-                border-top: 1px solid #FFF;
-
-
-                 a {
-                    color: #333;
-                    display: block;
-                    padding: .2em 0 .2em .5em;
-                    text-decoration: none;
-                    font-family: 'Courier New', Courier, monospace;
-                    
-
-                    
-                 }
-                }
+h1 {
+  text-align: center;
+  color: white;
 }
-
-ul.menuVertical li a:hover {
-    background-color:#afb2b7 ;
-    }
 
 *{
   margin: 0;
@@ -59,10 +20,9 @@ ul.menuVertical li a:hover {
 
 #logo{
  float: left;
- height: 100px;
- width: 100px;
+ height: 175px;
+ width: 175px;
  text-align: center;
- background-color: darkgrey;
  animation-duration: 2s;
  animation-name: aparecer ;
  }
@@ -79,7 +39,6 @@ ul.menuVertical li a:hover {
 
 nav{
   height: 60px;
-  background-color:#17181C;
   text-align: center;}
   .header__menu{
     list-style: none;
