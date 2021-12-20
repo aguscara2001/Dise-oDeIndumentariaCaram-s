@@ -8,12 +8,6 @@ ul.footer li a {
   color: black;
 }
 
-h1{
-  color: white;
-  font-size: large;
-  text-align: center;
-}
-
 /*GRID*/
 .grid-container {
   display: grid;
