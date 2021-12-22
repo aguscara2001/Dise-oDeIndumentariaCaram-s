@@ -3,7 +3,7 @@
 .grid-container {
 	display: grid;
 	margin: 40px 0 40px 0;
-	grid-template-columns: repeat(4,25%);
+	grid-template-columns: repeat(3,25%);
 	grid-template-rows: repeat(3,200px);
 	gap: 1px 1px;
 	text-align: center;
@@ -17,13 +17,13 @@
 
 .quienesSomos {
 	grid-area: quienesSomos;
-	background-color: #EFF4F7;
+	background-color: #5e5e5e;
 }
 .preguntasFrec {
 	grid-area: preguntasFrec;
-	background-color: #73CAEF;
+	background-color: #6f6f6f;
 }
 .metas {
 	grid-area: metas;
-	background-color: #89FFFB;
+	background-color: #828282;
 }
